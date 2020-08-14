@@ -1,0 +1,15 @@
+# [Braces] denote unit categories
+# Units are defined relative to placeholder value x
+# Primary units are defined as = x
+
+[Distance]
+Meters = x
+Kilometers = x*1000
+Centimeters = x/100
+Millimeters = x/1000
+Inches = x/39.37
+
+[Temperature]
+Celcius = x
+Fahrenheit = x-32/1.8
+Kelvin = x-273.15
